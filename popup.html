@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>JSON 整理工具</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <h3>JSON 整理工具</h3>
+
+    <textarea id="jsonInput" placeholder="请粘贴 JSON 字符串"></textarea>
+
+    <div class="btn-group">
+      <button id="formatBtn">整理</button>
+      <button id="clearBtn">清空</button>
+      <button id="copyBtn">复制结果</button>
+    </div>
+
+    <div id="errorMsg"></div>
+
+    <pre id="jsonOutput"></pre>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
